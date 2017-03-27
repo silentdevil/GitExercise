@@ -1,0 +1,30 @@
+SNUPDATE 02/07
+
+DONE:
+	Changed the design of Exercise2, changed HashMap to HashSet.
+	Overrode the Equals and HashCode of Map Object, removed the id variable of Map Object
+	Studied streams for collections
+
+TODO:
+	Prepare for checkpoint tomorrow
+	Read book (Java Collections and Concurrency in Practice)
+	Study Threads and Streams
+	
+ISSUES:
+	I noticed that HashMap is unnecessary in my design because id variable of map
+		does only a little use. HashSet is better to prevent duplicate Objects but be
+		sure to override the equals and hashcode.
+		
+	My changeKey and changeValue has almost identical codes, but I'm not sure if 
+	making a generic code with identifier for that is more efficient. 
+		
+LEARNINGS:
+	Some collections can also do the functions of other collections, they can also perform their
+	duties IF you don't consider efficiency. 
+	Streams can also be used to iterate the collections.
+	
+	
+	
+	
+	
+	

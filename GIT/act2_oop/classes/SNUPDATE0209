@@ -1,0 +1,61 @@
+SNUPDATE 02/09
+
+DONE:
+	Additional  function in Exercise2
+		can now add row.
+	Revision of Exercise2
+		editkey and editvalue require coordinates
+	Studied throw and throws, exception handling
+	Reviewed calling a child class's method using parent instance
+	Reviewed private methods in interfaces
+	Researched conversion of List to Set
+
+TODO:
+	Finish Exercise2 -> best delimeter (plans to make a dynamic delimeter)
+	Review Exception
+	Study streams and lambda
+	
+ISSUES:
+	Can't find a good delimeter for the string separators
+		-> created a dynamic delimeter, contains greek letters 
+	Can't find a way to call child's method from parent class's instance
+	
+LEARNINGS:
+	 JAVA 9 implements various changes.
+	 	private methods in interfaces.
+	
+	It is possible to call child class's inherited and overriden methods using
+		instance of parent class. 
+		
+		this will avoid the ClassCastException but can't reach to if block;
+		Mammal a = new Mammal();
+		if(a instance of Puppy) {
+			((Puppy) a).doSomething();
+		}
+	It is possible to convert a set to list.
+		Set<Foo> foo = new HashSet<Foo>(myList);
+	
+	It is possible to convert an arraylist to linkedlist, vice versa
+								hashSet to other type of set.
+								Map values to list
+								Map values to set
+		Because Collections constructors' argument takes Collection;
+		
+	If the class is abstract and extends an abstract class, the abstract methods are automatically
+		inherited. The abstract child class doesn't need to implement or declare the abstract
+		method/s. If the abstract child class is subclassed, and the subclass is non abstract, 
+		it must implement the abstract classes of the ancestor classes. 
+		
+	An interface cannot extend a class, only another interface.
+	
+	You can't use super.super.method(), you can call the method of ancestor class if the super.method()
+	is declared in the parent class.
+	
+	class Ancestor { public void run(){} }
+	class Parent extends Ancestor { public void run(){super.run();} }
+	class Child extends Parent {public void run() {super.run();}}
+
+	The @Override annotation is not required to override a method, but it is a good practice.
+		The compiler will warn you if the parent class has no method with that implementation.
+	
+	

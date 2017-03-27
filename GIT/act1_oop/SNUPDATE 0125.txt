@@ -1,0 +1,15 @@
+SNUPDATE 01/25
+
+DONE: 
+	improved Exercise1, removed try-catch
+	read Basic java
+ISSUES:
+	installing oracle-java8
+TO-DO:
+	read more and prepare for first checkpoint
+LEARNINGS:
+	static code block
+	constructor block
+	access modifiers
+	Wrap/UnWrap
+	

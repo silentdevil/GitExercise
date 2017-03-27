@@ -1,0 +1,26 @@
+static code block
+
+float size =  done
+Integer a = (Integer) 2; Literals can't be casted to object
+Integer a = (Integer) 2; //legal
+Integer a = 2; //legal
+
+float double precision loss
+can be 7 significant figures
+
+double = 15 significant figures
+
+
+Wrap/unwrap
+Exception Handling
+
+goto 
+break all loop = break outerloop;
+
+access modifiers protected, default
+
+oracle java coding standards
+
+optimize
+
+oracle java jdk 8

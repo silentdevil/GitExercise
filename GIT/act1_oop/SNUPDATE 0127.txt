@@ -1,0 +1,32 @@
+SNUPDATE 01/27
+
+DONE:
+	
+	Read ArrayList 
+	Made another version of Activity1
+		Made Table and Row class
+		Made add and delete row function
+	
+		
+	
+		
+ISSUES:
+	Having difficulty on determining on what is a good coding practice.
+	What design is more efficient.
+	
+	
+TODO:
+	Read collections API
+	Research on making an efficient design
+	Make a save function in exercise
+	Read streams and lambda
+	
+LEARNINGS
+	ArrayList vs Array
+	Benefits of Object Oriented Programming
+	
+	
+	
+	
+	
+	
