@@ -1,0 +1,4 @@
+Host jimmik
+    HostName jimmik
+    User git
+    IdentityFile jimmik

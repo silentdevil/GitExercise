@@ -1,0 +1,7 @@
+# IGNORE JAR FILES
+*.jar
+
+# IGNORE class files
+*.class
+
+*.py
