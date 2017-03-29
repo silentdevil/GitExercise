@@ -12,7 +12,8 @@ public class Main {
 		} 
 		
 		ServiceTable st = new ServiceTable(file);
-		//ASDASDASDASDAS
+		//This is a random comment
+		//Added new line
 		st.load();
 		st.print();	
 		outer:
