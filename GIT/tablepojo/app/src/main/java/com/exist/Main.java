@@ -12,7 +12,7 @@ public class Main {
 		} 
 		
 		ServiceTable st = new ServiceTable(file);
-
+		//ASDASDASDASDAS
 		st.load();
 		st.print();	
 		outer:
